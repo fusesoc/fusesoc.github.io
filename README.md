@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+# FuseSoC
 
-You can use the [editor on GitHub](https://github.com/fusesoc/fusesoc.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+FuseSoC is a package manager and a set of build tools for HDL (Hardware Description Language) code.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Its main purpose is to increase reuse of IP (Intellectual Property) cores and be an aid for creating, building and simulating SoC solutions.
 
-### Markdown
+**FuseSoC makes it easier to**
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- reuse existing cores
 
-```markdown
-Syntax highlighted code block
+- create compile-time or run-time configurations
 
-# Header 1
-## Header 2
-### Header 3
+- run regression tests against multiple simulators
 
-- Bulleted
-- List
+- Port designs to new targets
 
-1. Numbered
-2. List
+- let other projects use your code
 
-**Bold** and _Italic_ and `Code` text
+- set up continuous integration 
 
-[Link](url) and ![Image](src)
-```
+**FuseSoC is non-intrusive** Most existing designs doesn't need any changes to work with FuseSoC. Any FuseSoC-specific patches can be applied on the fly during implementation or simulation
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+**FuseSoC is modular** It can be used as an end-to-end flow, to create initial project files for an EDA tool or integrate with your custom workflow
 
-### Jekyll Themes
+**FuseSoC is extendable** Latest release support simulating with GHDL, Icarus Verilog, Isim, ModelSim, Verilator and Xsim. It also supports building FPGA images with Altera Quartus, project IceStorm, Xilinx ISE and Xilinx Vivado. Support for a new EDA tool requires ~100 new lines of code and new tools are added continuously
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/fusesoc/fusesoc.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+**FuseSoC is standard-compliant** Much effort has gone into leveraging existing standards such as IP-XACT and vendor-specific core formats where applicable.
 
-### Support or Contact
+**FuseSoC is resourceful** The standard core library currently consisting of over 100 cores including CPUs, peripheral controllers, interconnects, complete SoCs and utility libraries. Other core libraries exist as well and can be added to complement the standard library
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+**FuseSoC is free software** It puts however no restrictions on the cores and can be used to manage your company's internal proprietary core collections as well as public open source projects
+
+**FuseSoC is battle-proven** It has been used to successfully build or simulate projects such as Nyuzi, Pulpino, VScale, various OpenRISC SoCs, picorv32, osvvm and more.
