@@ -1,3 +1,5 @@
+![](logo4.png)
+
 # FuseSoC
 
 FuseSoC is a package manager and a set of build tools for HDL (Hardware Description Language) code.
