@@ -1,6 +1,6 @@
 ![](logo4.png)
 
-FuseSoC is a package manager and a set of build tools for HDL (Hardware Description Language) code.
+FuseSoC is an award-winning package manager and a set of build tools for HDL (Hardware Description Language) code.
 
 Its main purpose is to increase reuse of IP (Intellectual Property) cores and be an aid for creating, building and simulating SoC solutions.
 
